@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007BFF, white,#007BFF,white,#007BFF);
+    overflow: hidden;
+}
+
+.pricing-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    height: 140%;
+    border: none; 
+    border-radius: 27px;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title.pricing-card-title {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+.card-title.pricing-card-title small {
+    font-size: 3rem;
+}
+
+.btn-outline-primary {
+    width: 100%;
+} 
